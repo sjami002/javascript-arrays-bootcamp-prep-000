@@ -17,3 +17,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, candyStr) {
 function accessElementInArray(chocolateBars, index) {
   return chocolateBars[index];
 }
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, candyStr) {
+  chocolateBars.pop(candyStr);
+  return chocolateBars;
+}
